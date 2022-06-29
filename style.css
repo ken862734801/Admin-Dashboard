@@ -145,6 +145,37 @@ header{
     box-shadow: 4px 4px 4px rgb(139, 139, 173);
     border-left: 6px solid #2e3192;
 }
+.contact-container{
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    width: 50%;
+    padding:20px;
+    margin: 0 auto;
+    color:white;
+    background-color:  #2e3192;
+    border-radius: 8px;
+}
+.CTA-container {
+    font-size: 0.95em;
+}
+.BTN-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid black; */
+    width: 30%;
+}
+.BTN-container > button{
+    padding:8px;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+    background-color:  #2e3192;
+    width:50%;
+    font-weight: bold;
+
+}
 .sidebar{
     grid-area: D;
     background-color: skyblue;
@@ -171,5 +202,12 @@ header{
     }
     .text-container{
         margin-bottom: 10px;
+    }
+    .contact-container{
+        width: 80%;
+        height: 150px;
+    }
+    .BTN-container > button{
+        width: 100%;
     }
 }
