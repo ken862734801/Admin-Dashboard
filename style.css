@@ -60,8 +60,8 @@ header{
     display:flex;
     flex-direction: row;
     background-color: white;
-    width: 80%;
-    max-height: 240px;
+    width: 90%;
+    max-height: 310px;
     border:1px solid white;
     border-radius: 8px;
     box-shadow: 4px 4px 4px rgb(139, 139, 173);
@@ -94,11 +94,11 @@ header{
 .image-container > img{
     width: 100%;
     height:auto;
-    max-height: 230px;
+    max-height: 300px;
 }
 .vitals-container{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap: 8px;
@@ -116,14 +116,19 @@ header{
 }
 .data-container{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap: 8px;
 }
-.data-card{
-    border:1px solid black;
-    box-shadow: 4px 4px 4px rgb(139, 139, 173);
+.card-container{
+    width:90%;
+    display:grid;
+    place-items: center;
+  /*  border:1px solid black; */
+    margin-left: 15px;
+    padding:8px;
+    gap:4px;
 }
 .graph{
     border-radius: 8px;
@@ -131,6 +136,14 @@ header{
 }
 .graph > img{
     width: 100%;
+}
+.side-card{
+    width:80%;
+    padding:8px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(139, 139, 173);
+    border-left: 6px solid #2e3192;
 }
 .sidebar{
     grid-area: D;
@@ -155,5 +168,8 @@ header{
     }
     .sidebar{
         display:none;
+    }
+    .text-container{
+        margin-bottom: 10px;
     }
 }
