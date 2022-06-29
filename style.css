@@ -66,6 +66,9 @@ header{
 .searchbar{
     background-image: url(./images/magnify.svg);
     background-repeat: no-repeat;
+    background-size: 23px 27px;
+    background-origin: content-box;
+    text-indent: 25px;
     width: 50%;
     height: 30px;
     padding: 4px;
