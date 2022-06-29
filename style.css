@@ -55,12 +55,31 @@ header{
 .dashboard{
     grid-area: B;
     background-color: skyblue;
+    padding: 16px;
+    color:white;
 }
-.logo{
-    margin: 0 auto;
+
+li{
+    font-size: 1.2em;
+    list-style-type: none;
+    color:white;
+    margin: 5px;
+    font-weight: 500;
 }
-.dashboard-options{
-    margin: 0 auto;
+li > img{
+    position: relative;
+    top:4px;
+    margin-right: 10px;
+    height:25px;
+    width:25px;
+}
+.top{
+    margin-top: 40px;
+
+}
+.bottom {
+    margin-top:40px;
+    align-items: end;
 }
 
 .searchbar{
@@ -94,6 +113,7 @@ header{
     grid-template-rows: auto auto auto;
     grid-template-columns: 100%;
 }
+
 .section-title{
     width: 80%;
     margin: 0 auto;
@@ -234,6 +254,9 @@ header{
     .fa-bars{
         width:100%;
         color:white;
+    }
+    .fa-bars:hover{
+        cursor: pointer;
     }
     .vitals-container{
         grid-template-columns: auto auto;
