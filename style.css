@@ -64,6 +64,8 @@ header{
 }
 
 .searchbar{
+    background-image: url(./images/magnify.svg);
+    background-repeat: no-repeat;
     width: 50%;
     height: 30px;
     padding: 4px;
@@ -157,7 +159,6 @@ header{
     display:grid;
     place-items: center;
   /*  border:1px solid black; */
-    margin-left: 15px;
     padding:8px;
     gap:4px;
 }
@@ -216,8 +217,17 @@ header{
     .vitals-container{
         grid-template-columns: auto auto;
     }
+  
     .data-container{
         grid-template-columns: auto;
+    }
+    .contact-container{
+        width: 90%;
+        height: 150px;
+        margin-left:25px;
+    }
+    .BTN-container > button{
+        width: 100%;
     }
 }
 
