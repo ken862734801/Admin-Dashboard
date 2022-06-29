@@ -75,6 +75,17 @@ header{
     border-radius: 8px;
     border:none;
 }
+.menu{
+    display:flex;
+    align-items: center;
+    /* border:1px solid black; */
+    display:none;
+}
+.menu.fa-bars{
+    display:flex;
+    width: 100%;
+    height: 20px;
+}
 .main{
     grid-area: C;
     background-color: #f6faff;
@@ -217,6 +228,13 @@ header{
 }
 
 @media screen and (max-width: 1000px){
+    .menu{
+        display:flex;
+    }
+    .fa-bars{
+        width:100%;
+        color:white;
+    }
     .vitals-container{
         grid-template-columns: auto auto;
     }
@@ -241,6 +259,18 @@ header{
     .dashboard{
         display:none;
     }
+    .menu{
+        display:flex;
+        width:20%;
+        margin-left: 100px;
+    }
+    .fa-bars{
+        width:100%;
+        color:white;
+    }
+    .fa-bars:hover{
+        cursor: pointer;
+    }
     .sidebar{
         display:none;
     }
@@ -259,6 +289,9 @@ header{
         padding-left:10px;
     }
     .second-CTA{
+        display:none;
+    }
+    .pfp-container{
         display:none;
     }
 }
