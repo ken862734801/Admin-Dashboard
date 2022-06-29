@@ -22,6 +22,36 @@ header{
     grid-area: A;
     background-color: skyblue;
 }
+.header-container{
+    padding: 8px;
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+  /*  border: 1px solid black; */
+}
+.search-container{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    padding-left:50px;
+}
+.pfp-container{
+    display:flex;
+    width: 30%;
+    justify-content: end;
+   /* border:1px solid black; */
+    padding-right: 40px;
+}
+.pfp-container > img {
+    display: flex;
+    justify-content: end;
+    border-radius: 50%;
+    border: 1px solid #2e3192;
+    width:55px;
+}
+.pfp-container >img:hover{
+    cursor: pointer;
+}
 .dashboard{
     grid-area: B;
     background-color: skyblue;
@@ -34,8 +64,9 @@ header{
 }
 
 .searchbar{
-    width: 30%;
-    padding: 8px;
+    width: 50%;
+    height: 30px;
+    padding: 4px;
     border-radius: 8px;
     border:none;
 }
@@ -206,8 +237,15 @@ header{
     .contact-container{
         width: 80%;
         height: 150px;
+        margin-left:25px;
     }
     .BTN-container > button{
         width: 100%;
+    }
+    .search-container{
+        padding-left:10px;
+    }
+    .second-CTA{
+        display:none;
     }
 }
