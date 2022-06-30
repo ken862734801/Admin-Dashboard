@@ -127,7 +127,8 @@ li > img{
     border: 1px solid #d3d3d3;
     border-top:none;
     border-bottom:none;
-    border-left:none;
+    border-left:none; 
+
 }
 
 .section-title{
@@ -267,6 +268,7 @@ li > img{
     grid-area: D;
     background-color: #f6faff;
     padding:20px;
+
 }
 .appointment-card{
     width:80%;
@@ -330,7 +332,7 @@ li > img{
         width:15px;
         height:15px;
     }
- 
+    
 }
 
 @media screen and (max-width: 950px){
@@ -384,6 +386,7 @@ li > img{
     .pfp-container{
         display:none;
     }
+
 }
 
 /* calendar css starts here */
