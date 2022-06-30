@@ -5,6 +5,7 @@
 
 body{
     min-height: 100vh;
+    overflow-y: hidden;
 }
 .container{
     display:grid;
@@ -25,7 +26,8 @@ header{
     background-color: skyblue;
     /* border:1px solid #d7dadd;*/
     border-top:none;
-    z-index:1;
+    position: sticky;
+    top:0;
     box-shadow: 2px 2px 2px rgb(139, 139, 173);
 }
 .header-container{
@@ -130,7 +132,7 @@ li > img{
     border-bottom:none;
     border-left:none; 
     overflow-y: scroll;
-    height:100vh;
+    height:90vh;
 
 }
 
@@ -245,6 +247,7 @@ li > img{
     color:white;
     background-color:  #2e3192;
     border-radius: 8px;
+    margin-bottom:15px;
 }
 .CTA-container {
     font-size: 0.95em;
@@ -380,6 +383,10 @@ li > img{
     .BTN-container > button{
         width: 100%;
     }
+    button{
+        height:40px;
+        font-size: .65em;
+    }
     .search-container{
         padding-left:10px;
     }
@@ -388,6 +395,9 @@ li > img{
     }
     .pfp-container{
         display:none;
+    }
+    .main{
+        overscroll-behavior-y: hidden;
     }
 
 }
