@@ -4,7 +4,7 @@
     <link href="style.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Apollo: Patient Portal</title>
+    <title>Patient Portal</title>
     </head>
     <body>
         <div class="container">
@@ -23,7 +23,7 @@
             </header>
             <div class="dashboard">
                 <div class="logo-container">
-                    <h2 class="logo">Apollo Health</h2>
+                    <h2 class="logo">Patient Portal</h2>
                 </div>
                 <div class="top">
                         <li>
@@ -89,7 +89,7 @@
                     <div class="vitals-container">
                         <div class="card">
                             <div class="description">
-                                    <h2>80 bpm</h2>
+                                    <h2 class="number">80 bpm</h2>
                                     <br>
                                     <h4>Heart rate</h4>
                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -98,7 +98,7 @@
                         </div>
                         <div class="card">
                             <div class="description">
-                                <h2>135 lbs</h2>
+                                <h2 class="number">135 lbs</h2>
                                 <br>
                                 <h4>Weight</h4>
                                 <p>Sed ut perspiciatis unde omnis iste
@@ -107,7 +107,7 @@
                         </div>
                         <div class="card">
                             <div class="description">
-                                <h2>98.6 &#730;F</h2>
+                                <h2 class="number">98.6 &#730;F</h2>
                                 <br>
                                 <h3>Temperature</h3>
                                 <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -116,7 +116,7 @@
                         </div>
                         <div class="card">
                             <div class="description">
-                                <h2>120 mg/dL</h2>
+                                <h2 class="number">120 mg/dL</h2>
                                 <br>
                                 <h3>Glucose</h3>
                                 <p>Nemo enim ipsam voluptatem quia
@@ -135,21 +135,21 @@
                         </div>
                         <div class="card-container">
                             <div class="side-card">
-                                <h2>75/125</h2>
+                                <h2 class="number">75/125</h2>
                                 <br>
                                 <h4>Recent Blood Pressure</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div class="side-card">
-                                <h2>96/128</h2>
+                                <h2 class="number">96/128</h2>
                                 <br>
                                 <h4>Highest Blood Pressure</h4>
                                 <p>Sed ut perspiciatis unde omnis iste
                                     natus error sit voluptatem accusantium doloremque laudantium, totam rem aper.</p>
                             </div>
                             <div class="side-card">
-                                <h2> 70/118</h2>
+                                <h2 class="number"> 70/118</h2>
                                 <br>
                                 <h4>Lowest Blood Pressure</h4>
                                 <p>Nemo enim ipsam voluptatem quia
@@ -159,12 +159,12 @@
                        
                     </div>
                 </div>
-
+                <div class="section-title"></div>
                 <div class="section-container">
                     <div class="contact-container">
                         <div class="CTA-container">
                             <h2>Better connections. <br>Better care.</h2>
-                            <p>Apollo offers additional resources to help you further achieve 
+                            <p>We offer additional resources to help you further achieve 
                             your health goals.</p>
                              <p class="second-CTA">Click the button to get started today! </p>
                         </div>
@@ -174,7 +174,31 @@
                     </div>
                 </div>
             </div>
-            <div class="sidebar">4</div>
+            <div class="sidebar">
+                <div class="calendar-container">
+                    <div id="calendar">
+                        <div class="calendar-header">
+                        <h1>July 2022</h1>
+                    </div>
+                    <div class="calendar-body">
+                        <table>
+                            <tr>
+                            <td>Su</td> <td>Mo</td> <td>Tu</td><td>We</td><td>Th</td><td>Fr</td><td>Sa</td>
+                            </tr>
+                        <tr><td class="lastmonth">30</td><td class="current">1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+                        <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+                        <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+                        <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+                        <tr><td>28</td><td>29</td><td>30</td><td>31</td><td class="nextmonth">1</td><td>2</td><td>3</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="event-container">
+                    <div class="appointment-card"></div>
+                    <div class="appointment-card"></div>
+                    <div class="appointment-card"></div>
+                </div>
+            </div>
         </div>
     </body>
     </html>
