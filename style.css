@@ -406,7 +406,7 @@ li > img{
 }
 @media screen and (max-width: 400px){
     .main{
-        width:99vw;
+        width:100%;
     }
 }
 
