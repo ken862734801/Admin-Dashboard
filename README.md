@@ -21,8 +21,6 @@ These UI templates served as inspiration for the design.
 https://dribbble.com/shots/15599316-Patient-Management-Dashboard-UI-F-L-for-Love
 
 https://dribbble.com/shots/15872872/attachments/7697405?mode=media
-![Screen Shot 2022-07-02 at 06 09 28]
 
-[https://i.imgur.com/l6BnXKH.png](https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png) =400x800
-(https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png)
+![Screen Shot 2022-07-02 at 06 09 28](https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png)
 
