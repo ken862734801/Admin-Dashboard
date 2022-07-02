@@ -5,6 +5,9 @@ https://ken862734801.github.io/Admin-Dashboard/
 ## Preview 
 ![Alt text](https://i.imgur.com/PlCzfrd.png) ![Alt text](https://i.imgur.com/ZOBV2jQ.png)
 
+![Alt text](https://i.imgur.com/l6BnXKH.png)
+View on mobile.
+
 ## Summary
 The goal of this Odin Project assignment was to use CSS grid in order to design a mock admin dashboard that is responsive at various window breakpoints.
 
