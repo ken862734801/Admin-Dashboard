@@ -6,6 +6,7 @@ https://ken862734801.github.io/Admin-Dashboard/
 ![Alt text](https://i.imgur.com/PlCzfrd.png) ![Alt text](https://i.imgur.com/ZOBV2jQ.png)
 
 ![](https://i.imgur.com/l6BnXKH.png =400x800)
+[[[link](https://i.imgur.com/l6BnXKH.png =400x800)|width=400px]]
 View on mobile.
 
 ## Summary
