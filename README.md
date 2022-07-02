@@ -5,7 +5,7 @@ https://ken862734801.github.io/Admin-Dashboard/
 ## Preview 
 ![Alt text](https://i.imgur.com/PlCzfrd.png) ![Alt text](https://i.imgur.com/ZOBV2jQ.png)
 
-
+<img src="https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png" width="400" height="800">
 View on mobile.
 
 ## Summary
@@ -22,8 +22,5 @@ https://dribbble.com/shots/15599316-Patient-Management-Dashboard-UI-F-L-for-Love
 
 https://dribbble.com/shots/15872872/attachments/7697405?mode=media
 
-![Screen Shot 2022-07-02 at 06 09 28](https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png)
 
-
-<img src="https://user-images.githubusercontent.com/103093259/176996319-629b4203-8572-4924-ab1a-2ed4d858a0fe.png" width="100" height="100">
 
