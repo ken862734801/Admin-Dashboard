@@ -408,6 +408,9 @@ li > img{
     .main{
         width:99vw;
     }
+      .data-container{
+        margin-bottom:-20px;
+    }
     .side-card{
        margin-top:8px;
     }
