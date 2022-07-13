@@ -239,7 +239,6 @@ li > img{
     background-color: white;
     box-shadow: 4px 4px 4px rgb(139, 139, 173);
     border-left: 6px solid #e6d818;
-    margin-top:8px;
 }
 .contact-container{
     display:flex;
@@ -409,6 +408,8 @@ li > img{
     .main{
         width:99vw;
     }
+    .side-card{
+       margin-top:8px;
 }
 
 
